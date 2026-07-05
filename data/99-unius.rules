@@ -1,0 +1,3 @@
+# UNIUS BLACK LOTUS
+KERNEL=="hidraw*", ATTRS{idVendor}=="373e", ATTRS{idProduct}=="003d", MODE="0666"
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="373e", ATTR{idProduct}=="003d", MODE="0666"
